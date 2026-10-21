@@ -63,7 +63,7 @@ This edge-AI application for Quectel Pi (RK3576) recognizes license plates and d
 
 ### 1. Get the installer
 
-Download `plate-recognition-installer.run` (~137 MB, bundles the Python runtime, models, voice packs and demo videos) from the [Releases](https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch/releases) page.
+Download `plate-recognition-installer.run` (~137 MB, bundles the Python runtime, models, voice packs and demo videos) from the [Releases](https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch/releases) page.
 
 ### 2. Push it to the board
 
@@ -92,13 +92,13 @@ cd ~/plate-rec/code && ./run.sh
 
 ## Build from Source (optional, for developers)
 
-> Regular users can simply download the `.run` installer from [Releases](https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch/releases) — this section is not needed.
+> Regular users can simply download the `.run` installer from [Releases](https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch/releases) — this section is not needed.
 > Packaging happens on an **x86 Linux host**; the board only installs and runs.
 
 ### 1. Clone the repo and check prerequisites
 
 ```bash
-git clone https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch.git
+git clone https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch.git
 cd demo-ai-plate-watch-dispatch
 
 go version          # Go ≥ 1.18 (launcher cross-compile; the repo also ships a prebuilt ELF)

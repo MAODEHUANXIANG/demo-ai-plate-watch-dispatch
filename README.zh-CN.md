@@ -63,7 +63,7 @@
 
 ### 1. 获取安装包
 
-从 [Releases](https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch/releases) 页面下载 `plate-recognition-installer.run`（约 137 MB，内置 Python 运行时、模型、语音包与演示视频）。
+从 [Releases](https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch/releases) 页面下载 `plate-recognition-installer.run`（约 137 MB，内置 Python 运行时、模型、语音包与演示视频）。
 
 ### 2. 推送到板子
 
@@ -92,13 +92,13 @@ cd ~/plate-rec/code && ./run.sh
 
 ## 从源码构建（开发者可选）
 
-> 普通用户直接下载 [Releases](https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch/releases) 的 `.run` 安装包即可，无需走本节。
+> 普通用户直接下载 [Releases](https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch/releases) 的 `.run` 安装包即可，无需走本节。
 > 打包在**宿主机（x86 Linux）**上进行；开发板只负责安装运行。
 
 ### 1. 克隆仓库并检查前置条件
 
 ```bash
-git clone https://github.com/MAODEHUANXIANG/demo-ai-plate-watch-dispatch.git
+git clone https://github.com/Quectel-Pi/demo-ai-plate-watch-dispatch.git
 cd demo-ai-plate-watch-dispatch
 
 go version          # Go ≥ 1.18（编译双击启动器；没有则复用仓库已带的 ELF）
